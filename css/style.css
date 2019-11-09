@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2vw;
+}
+.item-list{
+    display: inline;
+    margin: 0;
+    margin-left: 3vw;
+}
+.item-list ul{
+    display: inline;
+    padding: 0vw;
+}
+.item-list ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 1vw;
+}
+.item-list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: inline;
+    margin-left: 3vw;
+}
+.logo img{
+    height: 2.3vw;
+    width: auto;
+    position: relative;
+    top: 0.75vw;
+}
+.item-list ul li a:hover{
+    color: #7ea7e4;
+}
+.btn-container{
+    margin-left: 0vw;
+}
+.btn-get-start{
+    display: inline;
+    color: white;
+    background-color: #4899e6;
+    padding: 0.3rem 0.5rem;
+    margin-left: 1vw;
+    border-radius: 0.20rem;
+}
+.btn-get-start a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.btn-learn-more{
+    margin-left: 3vw;
+    padding: 0.2rem 0.4rem;
+    border: solid black 0.1rem;
+    border-radius: 0.3rem;
+}
+
+.unity-for-all .btn-get-start{
+    margin-left: 0;
+}
+.btn-learn-more a{
+    text-decoration: none;
+    color: black;
+}
